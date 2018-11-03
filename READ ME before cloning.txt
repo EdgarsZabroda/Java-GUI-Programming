@@ -1,0 +1,1 @@
+"settings" directory should be named ".settings", be sure to rename it so that "Eclipse" could recognise the project
