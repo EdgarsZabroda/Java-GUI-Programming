@@ -103,7 +103,7 @@ public class HCD extends JFrame
 		setTitle("Hardcoding and Capturing data");
 		setSize(256, 512);
 		setVisible(true);
-		setResizable(true);
+		setResizable(false);
 		setDefaultCloseOperation(EXIT_ON_CLOSE);
 		
 		System.out.println("Creating and defining controls");
@@ -243,7 +243,7 @@ public class HCD extends JFrame
 			Thread.currentThread().interrupt();
 		}
 		
-		System.out.println("If controls are invisible try resizing the window");
+		System.out.println("No need to resize the window in order to see controls");
 		System.out.println("End of the entry point \"main\".");
 	}
 }
