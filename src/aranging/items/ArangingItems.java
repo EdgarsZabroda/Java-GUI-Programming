@@ -57,7 +57,6 @@ public class ArangingItems extends JFrame
 		gbc.gridheight = 1;
 		jPanel.add(jlFour, gbc);
 		
-		jPanel.setComponentOrientation(ComponentOrientation.LEFT_TO_RIGHT);
 		getContentPane().add(jPanel, BorderLayout.NORTH);
 	}
 	
