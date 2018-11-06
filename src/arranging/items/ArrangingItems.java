@@ -17,7 +17,7 @@ public class ArrangingItems extends JFrame
 	
 	public ArrangingItems()
 	{
-		setTitle("Aranging items");
+		setTitle("Arranging items");
 		setSize(256, 256);
 		setVisible(true);
 		setResizable(false);
